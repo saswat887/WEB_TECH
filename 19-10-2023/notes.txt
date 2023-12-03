@@ -1,0 +1,16 @@
+Div
+---------------------------------------------------------------------
+It is used to create division on your webpage as per our requirement
+It is represented by <div> tag 
+
+Span 
+---------------------------------------------------------------------
+It is used to create changes on our specified element in our webpage    
+
+1.Recursion
+2.Lambda Function 
+3.Array 2d Array
+4.String 
+5.Exception
+6.Collection 
+7.OOPS

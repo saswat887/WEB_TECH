@@ -1,0 +1,31 @@
+DOM(Document Object Model):-
+Website->Bunch & Webpages 
+
+It is a model which represents all the documents of a webpage.
+
+It is represented by documents
+
+Attributes of DOM:-These are the properties which represent DOM
+1.document URL ->It is used to fetch the URL of that webpage
+2.document head -> It is used to fetch all the document present in head
+3.document body -> It is used to fetch all the document present in body
+4.document links -> It is used to fetch all the links attached to that Webpages
+
+Methods of DOM:-
+These are used to fetch elements from a document object
+Some of the method which are used are:-
+1.document.querySelector
+2.document.getElementByClassName
+3.document.getElementById 
+4.document.querySelectorAll
+
+Methods which are applied on contents of tag :-
+1.textContent:-Content of our provided tag 
+2.innerHTML:- It is used provide color and styling to our tag 
+3.getAttribute:-It is used to fetch the attribute(links) present in the anchor tag.
+        var b=document.querySelector("a")
+        b.getAttribute("href")
+        b.setAttribute("href","https://www.flipkart.com/")
+4.setAttribute:-It is used to replace our attribute with another one
+
+TO add events to our selected tag we have to use addEventListner

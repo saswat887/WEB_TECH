@@ -1,0 +1,30 @@
+Github is an online repository which is used to push our code from your local repository to shared repository(online repository).
+
+GitBash:-
+GitBash is an application which is used to provide gitCommand 
+
+Step to push the codes:-
+1.Create an account in Github i.e. Github.com 
+2.Create a repository in Github.
+3.Download GitBash  and install GitBash
+4.Right click on the project folder or the respective folder which you want to push from local repository to shared repository using GitBash
+5.Go to that folder Right click on the folder and click on GitBash here.
+6.Configure your email address and username
+git config --global user.name.mail "saswat887@gmail.com"
+git config --global user.username "saswat887"
+
+7.Initialize your git repository
+    git init
+8.Check the status of  .git repository
+    git status
+9.Add the files to local git repository
+    git add .
+
+10.Commit the project file to remote repository
+
+11. Add the remote repository uri to push the code
+
+12.Create a branch to remote repository
+
+13.To switch the command prompt master to another branch 
+git checkout saswat

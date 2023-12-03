@@ -1,0 +1,47 @@
+Number:-
+It is used to store number with without decimal point values.
+
+var t=77
+
+String:-
+It is used to store to sequence of number,characters,special charater combined.
+It can be declared within a pair of single quation(' ') as well as double quotaion(" ").
+var s="SASWAT"
+var d='SASWAT'
+
+Boolean:-
+
+var a=true 
+var a='true'
+
+Null:-
+Whenever we are creating a object of NULL by assigning a variable null
+var b=null
+
+Undefined:-
+If we are creating a variable and assigning it nothing then its belongs to undefined.
+var s
+
+Non Primitive Data Type:-
+We will go for non primitive data type to store a uncountable data unit.
+
+3 Types:-
+ 1.array
+ 2.object
+ 3.class
+
+Important method of JavaScript:-
+    There are 3 methods which we are going to used it are:-
+    1.alert(' ')
+    2.console.log 
+    3.prompt
+
+alert(' '):-
+It is used to provide pop up notification to our webpage
+
+console.log 
+It is used to print something in our JavaScript
+
+prompt()
+It is used to take input in JavaScript
+It takes all the input in form of string

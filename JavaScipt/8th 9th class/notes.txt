@@ -1,0 +1,93 @@
+Function:-
+It is a space where we write business logic or application logic.
+Function are having 2 parts:-
+1.Function Declaration
+2.Function Call
+
+Basically it is a bunch of code which can be reused multiple times.
+If we want to execute a function then we have to call it.
+In javascript function are of two types:-
+1.Inbuilt function-> These are the functions defined previously to perform some specific activity. Eg:-push(),pop(),shift(),unshift()
+2.Customize Function->It is a function which is defined by developer to fulfil his requirement
+
+It is declared by the help of function keyword
+Syntax:-
+function function_name()
+{
+
+}
+
+function xyz()
+{
+    console.log("Hi")
+}
+xyz()
+
+A function can be called multiple no of times
+
+Eg
+
+function abcd(k)
+{
+    console.log(k)
+}
+abcd(10) //10
+abcd("hello") //hello
+abcd() //undefined
+
+In javascript it is not mandatory to pass exact number of  actual argument to a function
+
+ARRAY:-
+It is used to store multiple elements in a single memory location.
+In javascript arrays have flexible memory.
+
+Syntax:-
+var  variable_name=[e1,e2,...............,en]
+
+It is a collection both homogenous and heterogenous elements.
+It is ordered in nature 
+Arrays have indexed
+
+Methods of Array:-
+1.toString()
+    it is use to convert all the elements of to String
+    Syntax:-
+    vn.toString()
+    eg:-
+    var hh=[10,20,30]
+    hh.toString()
+    "10","20","30"
+
+2.join()
+ Syntax:-
+    vn.join()
+    hh.join('*')
+    '10*20*30'
+    it is use to convert all the elements of our array to string by the entered glue character
+
+3.push()
+    Syntax
+    vn.push(element)
+    It is used to add elements to array and it will add that elements at the end of array
+    hh.push(90)
+    10,20,30,90
+
+4.unshift()
+Syntax
+vn.unshift(element)
+It is used to add value to add array starting of array
+
+5.pop()
+Syntax
+vn.pop()
+It is used to remove values from our array and it always removes the last elements
+eg:-
+hh.pop()
+40
+
+6.shift()
+Syntax:-
+It is used to remove first element of array
+
+
+

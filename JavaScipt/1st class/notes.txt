@@ -1,0 +1,19 @@
+Programming Language:-
+It is a language through which we can provide instruction tp our device to get our desired output.
+
+JavaScript:-
+It is a high level,interpreted programming language who supports OOPS concepts.
+
+High Level Language:-Language easily understood by human.
+
+JS usages a software named interpreter to convert high level language to low level language thats why it is called interpreted.
+Line by line compilation and execution is said to be interpretation.
+
+Features:-
+1.It is lightweight language
+2.Interpreted language
+3.Case Sensitive 
+4.Platform Independent
+5.Portable language
+6.Supports OOPS concept 
+7.Dynamically typed language 

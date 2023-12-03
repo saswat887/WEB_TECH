@@ -1,0 +1,297 @@
+OPERATORS:-
+These are the symbols though which we can perform operation on our operands to get output.
+2+2=4 2 is operands and + is operator 
+
+In javascript operators are of 3 types:-
+1.Unary Operator
+2.Binary Operator 
+3.Ternary Operator
+
+Unary Operator
+When we want one single we will go for unary operator.
+It is further divide in 2 types :-
+1.Increment
+    It is used add to 1 to our operands
+    Two Types:-
+    1.Pre 
+        It is used to add 1 to our value instantly.
+        Syntax:-   ++variable name 
+         Example    int a=5
+                    ++a// a=6
+    2.Post
+        It will add 1 to our operant on the next step
+         Syntax:-   variable name++ 
+         Example    int a=5
+                    a++// a=5
+                    a//a=6
+2.Decrement
+    It is used subtract to 1 to our operands
+    1.Pre 
+        It is used to subtract 1 to our value instantly.
+        Syntax:-   --variable name 
+         Example    int a=5
+                    --a// a=4
+    2.Post
+        It will subtract 1 to our operant on the next step
+         Syntax:-   variable name-- 
+         Example    int a=5
+                    a--// a=5
+                    a//a=4
+
+Binary Operator:-
+Whenever we want to operation on 2 operands we will go for binary operators.
+
+1.Arithmetic Operator (+,-,*,/,%,**)
+    It is used to performed mathematical calculation
+    2+3=5
+    3-1=2
+    3*3=9
+    3/3=1
+    3%3=0
+    3**2=9
+
+2.Relational Operator(>,<,>=,<=):-
+    It always return the output in form of boolean
+    3>2 //True 
+    3<2 //False 
+    3>=2//True 
+    3<=2//False 
+
+3.Comparison Operator(==,===,!=,!===)
+    == only compare value and ignore data type return true if value equal else return false
+    === compare both value and data type return true if both value and type are equal else return false
+    != only compare value and ignore data type return false if value equal else return true
+    !== compare both value and data type return false if both value and type are equal else return true
+    10=='10' //True
+    10==10 //True
+    10==='10' //False
+    10===10 //True
+    12!=13//True
+    15!=15 //False
+    10!='12'//True
+    15!==16//True 
+    15!=='16'//False
+
+4.Logical Operator(&&,||)
+    &&:-Logical and
+    ||:-Logical or 
+    It always return output in boolean form
+
+    &&:-It returns true if both the condition are true
+        T && T -> T 
+        T && F -> F
+        F && T -> F
+        F && F -> F
+    
+    ||:-It returns true if any of the condition is true
+        T || T -> T 
+        T || F -> T
+        F || T -> T
+        F || F -> F
+
+
+String Concatenation:-
+When we use + operator in between of a string or any other data type with string then concatenation happen.
+
+"abc"+"def"="abcdef"->concatenation
+"abc"+10=abc10->concatenation
+
+5+6=11->addition
+
+Ternary Operator:-
+Syntax:-
+condition?statement1:statement2
+
+var a=5
+var b=10
+a<b?"Hello":"Bye"//Hello
+
+When we work on more than two operands then we go for ternary operator.
+If condition is true statement1 will print if false statement2 will print.
+
+CONDITIONALS STATEMENT:-
+It is a statements which contains a condition with it.
+There are 3 types of condition statements:-
+1.if statement
+2.if else statement
+3.if elseif-else statement
+
+if statement:-
+syntax: if(condition)
+        {
+            --------------
+            --------------
+        }
+It is a statement which carries a condition with it and only allows a flow inside of it when the condition is true.
+
+var x=Number(prompt("Enter your age"))
+if(x>=18)
+{
+    Console.log("Eligible to vote")
+}
+ 
+It is a independent statement
+
+if-else statement:-
+else :- It is a statement which doesn't carries a condition and it provides backup to our of statement.
+
+Syntax:-if(condition)
+        {
+            --------------
+            --------------
+        }
+        else
+        {
+            --------------
+            --------------
+        }
+
+The flow will reach upto else block only if , if condition is false
+Flow will not execute both statements simultaneously
+Else is a dependent statement
+We can create max to max single else block for single if condition
+else is optional
+
+var x=Number(prompt("Enter your age"))
+if(x>=18)
+{
+    Console.log("Eligible to vote")
+}
+else
+{
+    Console.log("TO BAYSAYA NAHI")
+}
+
+Nested if-else:-
+Syntax:-
+if(condition)
+{
+    if(condition)
+    {
+
+    }
+    else
+    {
+
+    }
+}
+else
+{
+    if(condition)
+    {
+
+    }
+    else
+    {
+        
+    }
+}
+
+It is used to execute multiple condition simultaneously
+
+if(a>b)
+{
+    if(a>c)
+    {
+        console.log("a is greatest")
+    }
+    else
+    {
+        console.log("c is greatest")
+    }
+}
+else
+{
+    if(b>c)
+    {
+        console.log("b is greatest")
+    }
+    else
+    {
+        console.log("c is greatest")
+    }
+}
+
+-:else if-else:-
+
+->it is use to check multiple conditions simulteniously.
+if(condition)
+{
+
+}
+else if(condition)
+{
+
+}
+else if(condition)
+{
+
+}
+else (condition)
+{
+
+}
+
+->it is a statementt which carries a condition with it and it is use to provide secondary backup to our if condition.
+->it is allow to create multiple else if block for a single if (condition).
+->it is a dependant statement.
+
+var a=10;
+varb=20;
+var c=5;
+if(a>b &&a>c)
+{
+alert("a is greatest");
+}
+else if(b>a && b>c)
+{
+alert("b is greatest");
+}
+else("c is greatest");
+
+
+-:looping statement:-
+->it is a statement which is used to exicute bunch of code repeatedly as per our requirement.
+->it is of two types.
+1.for() loop
+2.while() loop
+
+1.for loop:-
+->we will go for, for() loop when we know the exact number of iteration.
+syntax:-
+for(intialization;condition;inc/dec)
+{
+
+}
+
+for(var a=1;a<=5;a++)
+{
+    console.log(a)
+}
+output:-
+1
+2
+3
+4
+5
+
+2.while loop:-
+Syntax:-
+while(condition)
+{
+
+}
+
+When we don't know the exact number of iteration we will go for while loop
+
+var x=1;
+while(x<=4)
+{
+    console.log(x);
+    x=x+1;
+}
+output:-
+1
+2
+3
+4

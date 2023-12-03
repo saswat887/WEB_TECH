@@ -1,0 +1,27 @@
+Objects in JavaScript :-
+All the elements of object are enclose within a pair of {},where all the elements are in form of key value pair.
+In JavaScript object key value are separated by : and key value pairs are separated by ,
+
+Syntax:-
+var vn={key1:value1,key2:value2,......,keyn:valuen}
+
+JavaScript Objects are unodered
+eg:
+var car={company:"BMW",year:1916,model:"7 series"}
+
+We can access a value by its corresponding key in JavaScript
+var["key"]
+
+We can change any value by its corresponding key 
+car["year"]=2000
+
+It is mutable 
+car["color"]="blue"
+
+var k={a:[10,20],b:20}
+k["a"][1]
+20
+
+var s={1:function() { 
+    alert("hello")
+}}

@@ -1,0 +1,4 @@
+display 
+--------
+1.none :- It is used to element multiple elements 
+2.inline:-It is used to convert all the block element to inline element
